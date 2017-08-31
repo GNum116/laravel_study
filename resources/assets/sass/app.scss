@@ -10,7 +10,7 @@
 
 $navbar-color: #3c3e42;
 
-// universal
+// Universal
 body {
   padding-top: 60px;
 }
@@ -24,7 +24,7 @@ textarea {
   text-align: center;
 }
 
-// typography
+// Typography
 h1, h2, h3, h4, h5, h6 {
   line-height: 1;
 }
@@ -47,7 +47,7 @@ p {
   line-height: 1.7em;
 }
 
-// header
+// Header
 .narbar-inverse {
   background-color: $navbar-color;
 }
@@ -65,7 +65,7 @@ p {
   }
 }
 
-// footer
+// Footer
 footer {
   margin-top: 45px;
   padding-top: 5px;
@@ -81,7 +81,7 @@ a:hover {
 small {
   float: left;
 }
-ul {
+footer ul {
   float: right;
   list-style: none;
   li {
@@ -96,4 +96,55 @@ img.brand-icon {
 .slogon {
   font-size: 13px;
   font-weight: bold;
+}
+
+// Sidebar
+aside {
+  section {
+    padding: 10px 0;
+    margin-top: 20px;
+    &:first-child {
+      border: 0;
+      padding-top: 0;
+    }
+    span {
+      display: block;
+      margin-bottom: 3px;
+      line-height: 1;
+    }
+  }
+}
+section.user_info {
+  padding-bottom: 10px;
+  margin-top: 20px;
+  text-align: center;
+  .gravatar {
+    float: none;
+    max-width: 70px;
+  }
+  h1 {
+    font-size: 1.4em;
+    letter-spacing: -1px;
+    margin-bottom: 3px;
+    margin-top: 15px;
+    text-align: center;
+  }
+}
+.gravatar {
+  float: left;
+  margin-right: 10px;
+  max-width: 50px;
+  border-radius: 50%;
+}
+
+// Forms
+input, textarea, select, .uneditable-input {
+  bottom: 1px solid #bbb;
+  margin-bottom: 15px;
+}
+input {
+  height: auto !important;
+}
+.panel {
+  margin-top: 50px;
 }
