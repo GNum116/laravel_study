@@ -8,8 +8,8 @@ function get_db_config()
 		return $dbConfig = [
             'connection' => 'pgsql',
             'host'       => $url['host'],
-            'database'   => $url['database'],
-            'username'   => $url['username'],
+            'database'   => substr($url['path'], 1),
+            'username'   => $url['user'],
             'password'   => $url['pass']
 		];
 	} else {
