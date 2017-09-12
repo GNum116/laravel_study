@@ -8430,15 +8430,15 @@ footer {
   color: #777;
 }
 
-a {
+footer a {
   color: #555;
 }
 
-a:hover {
+footer a:hover {
   color: #222;
 }
 
-small {
+footer small {
   float: left;
 }
 
@@ -8452,12 +8452,12 @@ footer ul li {
   margin-left: 15px;
 }
 
-img.brand-icon {
+footer img.brand-icon {
   width: 17px;
   height: 17px;
 }
 
-.slogon {
+footer .slogon {
   font-size: 13px;
   font-weight: bold;
 }
@@ -8546,5 +8546,59 @@ input {
   float: right;
   position: relative;
   right: 0;
+}
+
+.statuses {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.statuses li {
+  padding: 10px 0;
+  border-top: 1px solid #e8e8e8;
+  position: relative;
+}
+
+.statuses .user {
+  margin-top: 5em;
+  padding-top: 0;
+}
+
+.statuses .content {
+  display: block;
+  margin-left: 60px;
+  word-wrap: break-word;
+}
+
+.statuses .content img {
+  display: block;
+  padding: 5px 0;
+}
+
+.statuses .timestamp {
+  color: #777777;
+  display: block;
+  margin-left: 60px;
+}
+
+.statuses .gravatar {
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+.statuses form button.status-delete-btn {
+  position: absolute;
+  right: 0;
+  top: 10px;
+}
+
+aside textarea {
+  height: 100px;
+  margin-bottom: 5px;
+}
+
+.status_form {
+  margin-top: 20px;
 }
 
